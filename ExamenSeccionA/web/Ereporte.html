@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Reporte</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class=" cab_nav">
+            <img src="Imagenes/escudoCECyT9.png" alt="Logo" class="logo_img">
+            <h2 class="nomb_logo">Editar Reporte</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Creporte.html">Crear Reporte</a></li>
+                <li class="marca"><a href="Ereporte.html">Editar Reporte</a></li>
+                <li class="sesion"><a href="">Sesion</a></li>  
+            </ul>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form name="Dformulario" action="ActualizarReporte" method="post" class="formulario">
+        <h1 class="formulario__titulo">Editar Reporte</h1>
+        <br>
+        <h2>Seleccione el dato que dessee cambiar</h2>
+        <br>
+        <select class="menu" id="menu">
+            <option value="1">Laboratorio</option>
+            <option value="2">CPU</option>
+            <option value="3">Monitor</option>
+            <option value="4">Configuracion</option>
+            <option value="4">Accesorios</option>
+            <option value="4">Estado del Reporte</option>
+            <option value="5">Asignatura</option>
+            <option value="5">Grupo</option>
+            <option value="5">Fecha</option>
+            <option value="5">Hora</option>
+            <option value="5">Etiqueta</option>
+            <option value="5">Problema</option>
+        </select>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input required="" type="text" class="formulario__input" id="nombre">
+            <label class="formulario__label">Ingrese el nuevo dato</label>
+            <br>
+            <br>
+            <input type="text" class="formulario__input" id="boleta">
+            <label class="formulario__label">Ingrese el ID del Reporte</label>
+            <br>
+            <input type="submit" class="formulario__submit" value="Enviar Reporte" onclick="validacion()"/>
+        </form>
+        
+    
+    <script src="JS/formularios.js"></script>
+</body>
+</html>
+    
